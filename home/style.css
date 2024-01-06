@@ -7,27 +7,39 @@
 body {
     background-color: rgb(29, 28, 28);
     color: aliceblue;
+    min-width: 900px;
 }
 
 #ssa {
-    font-size: 100px;
+    font-size: 70px;
     font-family: 'Roboto', sans-serif;
-    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 70px;
+    display: inline-block;
+}
+
+#info {
+    float: right;
+    display: inline;
+    margin-top: 20px;
+    margin-right: 70px;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #head-div {
     background-color:rgb(215, 119, 51);
-    height: 25px;
-    width: 1800px;
-    margin-left: 60px;
+    height: 15px;
+    width: 100%;
+    margin: 0 auto;
     margin-bottom: 10px;
-    border-radius: 10px;
-
+    text-align: center;
 }
 
-h2 {
-    text-align: center;
+#subjects {
     font-family: 'Roboto', sans-serif;
+    text-align: center;
     font-size: 50px;
 }
 
@@ -40,8 +52,8 @@ h2 {
     font-size: 24px;
     padding-bottom: 5px;
     border-radius: 5px;
-    transition-duration: 0.2s;
-    margin: 15px;
+    transition-duration: 0.4s;
+    margin-left: 30px;
 }
 
 .card_image {
@@ -50,6 +62,8 @@ h2 {
 
 .card:hover {
     background-color: rgb(173, 95, 40);
+    transform: translateY(-10px);
+    box-shadow: 3px 4px 12px 0px rgba(0, 0, 0, 0.6);
 }
 .card:active {
     background-color: rgb(154, 80, 27);

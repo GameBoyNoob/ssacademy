@@ -11,6 +11,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+#mouse {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: #614DF0;
+    border-width: 0px;
+    box-shadow: 0px 0px 30px 10px #614DF0;
+}
+
 #ssa {
     font-size: 40px;
     margin-top: 5px;
